@@ -12,6 +12,8 @@ const start = function () {
   currentSecond.innerHTML = '0';
   number = 0;
   sum1 = 0;
+  playerScore1 = 0;
+  playerScore2 = 0;
   if (!player1.classList.contains('player--active')) {
     player1.classList.add('player--active');
     player2.classList.remove('player--active');
